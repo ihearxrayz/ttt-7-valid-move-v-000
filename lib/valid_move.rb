@@ -5,6 +5,5 @@ def valid_move?(board, index)
 end
 
 def position_taken?(board, index)
-  binding.pry
   board[index] != " " 
 end
